@@ -1,9 +1,9 @@
 // Timer
 let timerElement = document.getElementById('timer');
-let time = 3600; // 1 hour in seconds
+let time = 5400; // 1 hour in seconds
 
 let timerInterval = setInterval(() => {
-    let minutes = Math.floor(time / 60);
+    let minutes = Math.floor(time / 90);
     let seconds = time % 60;
     seconds = seconds < 10 ? '0' + seconds : seconds;
 
